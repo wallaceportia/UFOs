@@ -26,12 +26,13 @@ The purpose of this is to help Dana build an interactive webpage "UFO Sightings"
 Users can search based on built in "Filter ID's"
 
 ###### Filter ID's 
-* Date (Image 2)
+* Date - Users can search by date in the format of __day/month/year__ (Image 2)
 
 ![Filter By Date](https://github.com/wallaceportia/UFOs/blob/main/Resources-Images/Filter_by_date.PNG)
-* City (Image 3)
 
-![Filter By City]() 
+* City (Image 3) - Users can search by city using __a city name__ 
+
+![Filter By City](https://github.com/wallaceportia/UFOs/blob/main/Resources-Images/Filter_by_city.PNG) 
 
 * State (Image 4)
 
