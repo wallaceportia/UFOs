@@ -30,7 +30,7 @@ Users can search based on built in "Filter ID's"
 
 ![Filter By Date](https://github.com/wallaceportia/UFOs/blob/main/Resources-Images/Filter_by_date.PNG)
 
-* City (Image 3) - Users can search by city using __a city name__ 
+* City  - Users can search by city using __a city name__ (Image 3)
 
 ![Filter By City](https://github.com/wallaceportia/UFOs/blob/main/Resources-Images/Filter_by_city.PNG) 
 
@@ -38,11 +38,11 @@ Users can search based on built in "Filter ID's"
 
 ![Filter By State]()
 
-* Country (Image 5)
+* Country - Users can search by country (at present only country with reporting is the USA)
 
 ![Filter By Country]()
 
-* Shape (Image 6)
+* Shape - Users can search by shape of sighting, using filter __Shape__ (Image 6) 
 
 ![Filter By Shape] ()
 
