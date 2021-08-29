@@ -14,7 +14,7 @@ The purpose of this is to help Dana build an interactive webpage "UFO Sightings"
 The webpage greets users with a beautiful jumbotron 
 ###### The Truth is Out There
 
-![Jumbotron]()
+![Jumbotron](https://github.com/wallaceportia/UFOs/blob/main/Resources-Images/Jumbotron.PNG)
 Users can search based on built in "Filter ID's"
 
 ###### Filter ID's 
