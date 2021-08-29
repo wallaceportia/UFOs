@@ -8,7 +8,7 @@
 
 ## Overview of the Project:
 
-The purpose of this is to help Dana build an interactive webpage, funded by "W.Avy" that allows ufologist and sceptics alike to search for data around UFO sightings. Visitors to this webpage will have the abiility to view and search for data by using a dynamic table that will be built using HTML and JavaScript and beautified using elements of CSS and Bootstrap. 
+The purpose of this is to help Dana build an interactive webpage "UFO Sightings", funded by "W.Avy" that allows ufologist and sceptics alike to search for data around UFO sightings. Visitors to this webpage will have the abiility to view and search for data by using a dynamic table that will be built using HTML and JavaScript and beautified using elements of CSS and Bootstrap. 
 
 ## Results:
 The webpage greets users with a beautiful jumbotron 
