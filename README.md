@@ -16,7 +16,7 @@ The purpose of this is to help Dana build an interactive webpage "UFO Sightings"
 
 * The webpage greets users with a beautiful jumbotron. To produce the background picture, the position and size of the text, a combination of HTML text was used, and CSS and Bootstrap.
 
-###### Creation of Interactive Table Image (1 - 6)
+###### Creation of Interactive Table Image (1 - 5)
 
 * An interactive table was created using HTML and JavaScript.  This table will allow users to search for UFO sightings using filters: Date, City, State, Country and Shape(of sighting) If a user should clear all fields the user will view "all" results, that is the results will be unfiltered.   
   
@@ -30,24 +30,26 @@ Users can search based on built in "Filter ID's"
 
 ![Filter By Date](https://github.com/wallaceportia/UFOs/blob/main/Resources-Images/Filter_by_date.PNG)
 
-* City  - Users can search by city using __a city name__ (Image 3)
+* City  - Users can search by city using __A City Name__ (Image 3)
 
 ![Filter By City](https://github.com/wallaceportia/UFOs/blob/main/Resources-Images/Filter_by_city.PNG) 
 
-* State (Image 4)
+* State - Users can search sightings by __State__ (Image 4)
 
-![Filter By State]()
+![Filter By State](https://github.com/wallaceportia/UFOs/blob/main/Resources-Images/Filter_by_state.PNG)
 
 * Country - Users can search by country (at present only country with reporting is the USA)
 
-![Filter By Country]()
+[Filter By Country]
 
-* Shape - Users can search by shape of sighting, using filter __Shape__ (Image 6) 
+* Shape - Users can search by shape of sighting, using filter __Shape__ (Image 5) 
 
 ![Filter By Shape] (https://github.com/wallaceportia/UFOs/blob/main/Resources-Images/Filter_by_shape.PNG)
 
-There is a description of how to perform a search, with images. (4 pt)
 ## Summary:
+The UFOs webpage was sucessful in terms of the elements of the planned project were completed.  The webpage is interactic with a dynamic table that allows urology enthusiast and even sceptics to search for reported sightings of UFO's based on five(5) different criteria.
+One of the drawbacks of this webpage is that the a user has no idea of which dates, cities or states that sightings occured in. A secondary filter within the existing filters should prodvide a drop-down list with possible list items; for example a clickable list of only cities for which there were sightings.  This paired with a pop-up message box of "Null" to indicate to the user that this filter is not producing results because there are none to display. 
 
-The summary addresses one drawback of this webpage (2 pt)
-The summary addresses two additional recommendations for further development (4 pt)
+Two additional recommendations for further development of this webpage are: 
+* 1) A user entry box that excepts information on sightings that can be entered uses the existing filter id's, and the ability to upload images of the sightings
+* 2) Social Media buttons should be added ot the page, as they say "Birds of a feather flock together", it is likely that urology enthusiats have friends who are also enthusiasts. The ability of users to share links on their "FB", "Instagram" and other social platforms can both bring more users to the page and possible more amazing reports of "sightings"
