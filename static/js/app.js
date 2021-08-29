@@ -24,22 +24,26 @@ function buildTable(data) {
 }
 
 // 1. Create a variable to keep track of all the filters as an object.
-
+var filters = {} ;
 
 // 3. Use this function to update the filters. 
-function updateFilters() {
-
+function updateFilters(e) {
+//alert(e.target.value);
     // 4a. Save the element that was changed as a variable.
-
+    var element = e.target;
     // 4b. Save the value that was changed as a variable.
-
+    var value = element.value;
     // 4c. Save the id of the filter that was changed as a variable.
-
+    var id = element.id;
   
     // 5. If a filter value was entered then add that filterId and value
     // to the filters list. Otherwise, clear that filter from the filters object.
- 
-  
+    if (value.length >0) {
+      filters[id] = value;
+    }
+    else {
+      delete filters[id];
+    }
     // 6. Call function to apply all filters and rebuild the table
     filterTable();
   
@@ -49,18 +53,27 @@ function updateFilters() {
   function filterTable() {
   
     // 8. Set the filtered data to the tableData.
-    
+    var filteredData = tableData;
   
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
-    
+    for (const [key, value] of Object.entries(filters)) {
+      console.log(key, value);
+      filteredData = filteredData.filter(row => row[key] === value);
+    }
   
     // 10. Finally, rebuild the table using the filtered data
-    
+    buildTable(filteredData);
+
   }
   
   // 2. Attach an event to listen for changes to each filter
   
-  
-  // Build the table when the page loads
+  document.getElementById("datetime").onchange=updateFilters;
+  document.getElementById("city").onchange=updateFilters;
+  document.getElementById("state").onchange=updateFilters;
+  document.getElementById("country").onchange=updateFilters;
+  document.getElementById("shape").onchange=updateFilters;
+
+    // Build the table when the page loads
   buildTable(tableData);
