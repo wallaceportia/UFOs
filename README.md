@@ -44,7 +44,7 @@ Users can search based on built in "Filter ID's"
 
 * Shape - Users can search by shape of sighting, using filter __Shape__ (Image 6) 
 
-![Filter By Shape] ()
+![Filter By Shape] (https://github.com/wallaceportia/UFOs/blob/main/Resources-Images/Filter_by_shape.PNG)
 
 There is a description of how to perform a search, with images. (4 pt)
 ## Summary:
