@@ -12,7 +12,12 @@ The purpose of this is to help Dana build an interactive webpage "UFO Sightings"
 
 ## Results:
 The webpage greets users with a beautiful jumbotron 
-Users can search based on built in ID's
+###### The Truth is Out There
+
+![Jumbotron]()
+Users can search based on built in "Filter ID's"
+
+###### Filter ID's 
 * Date
 * City
 * State
