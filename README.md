@@ -44,7 +44,7 @@ Users can search based on built in "Filter ID's"
 
 * Shape - Users can search by shape of sighting, using filter __Shape__ (Image 5) 
 
-![Filter By Shape] (https://github.com/wallaceportia/UFOs/blob/main/Resources-Images/Filter_by_shape.PNG)
+![Filter By Shape](https://github.com/wallaceportia/UFOs/blob/main/Resources-Images/Filter_by_shape.PNG)
 
 ## Summary:
 The UFOs webpage was sucessful in terms of the elements of the planned project were completed.  The webpage is interactic with a dynamic table that allows urology enthusiast and even sceptics to search for reported sightings of UFO's based on five(5) different criteria.
